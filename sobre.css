@@ -1,0 +1,50 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f7cf4e;
+    
+}
+
+.all {
+    position: relative; 
+   
+    padding: 60px;
+  
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.all a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-weight: 300;
+    padding: 3px 20px;
+  
+}
+
+.all a:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 60px;
+}

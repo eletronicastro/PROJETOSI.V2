@@ -1,0 +1,62 @@
+/*estilização do todo o conteúdo da página html*/
+html{
+    background-color: #0072D4;
+    font-size: 17px;
+    font-family: arial, sans-serif;
+}
+
+
+/*essa class centraliza o texto e estiliza outras cosas como background e margens*/
+.centralize{
+    display: block;
+    text-align: center;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    margin-top: 1.5rem;
+    height: 82vh;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: white;
+    border: 1px #ffffff solid;
+    border-radius: 8px;
+    margin-bottom: 2.3rem;
+
+   
+}
+
+/*essa class estiliza os botão que vai levar a tela inicail */
+.lpage {
+    padding: 8px 20px;
+    color: #ffffff;
+    width: fit-content;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-decoration: none; /*A propriedade CSS de display define se um elemento é tratado como um bloco ou elemento embutido*/
+    z-index: 1;
+    transition: 0.5s; /*responável pela transição suave entre as estilizações*/
+    cursor: pointer; /*define que o cursor ficara em formato de pontwiro quando estiver em cima do elemento*/
+    margin-bottom: 10px;
+}
+/*essa é a estilização do botão quando o usuário passar o mouse por cima do botão */
+.lpage:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+ /*essa parte do código estiliza o clique aqui */
+.click{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+/*centraliza o botão */
+.center{
+    display: block;
+    margin-top: 1.7rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

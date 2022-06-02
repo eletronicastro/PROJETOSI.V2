@@ -1,0 +1,14 @@
+body{
+    font-size: 35px;
+    background-color:   #f7cf4e;
+  
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+}
